@@ -31,25 +31,25 @@ For those making modifications, (1) I welcome it wholeheartedly and (2) I give a
 
 #### Customizing Practice Sentences
 ##### Inspect the Dictionary, and Add Words to the Dictionary
-> The public version enables you to add nouns, adjectives, verbs, prepositions, and adverbs. There are two places in the file [POSfactory.js](https://github.com/sharonzhou/ingenium/app/blocks/POSfactory.js) in which you should add your new words. 
-> > 1. Add the word into the ToolTips object, following its part of speech. This will show when hovering over the block as a dictionary gloss. 
-> > 2. Find the word's corresponding part of speech under the ToolTips. Add the word and, if applicable, its relevant inflections. 
-> > > - Nouns: Add to the NounInflections object. 
-> > > - Verbs: Add to the Verbs object. The Expectations object for verbs specify what this verb is "looking for" or "has a gap for", in the Michigan Latin approach, e.g. transitive verbs will expect an accusative direct object, while special intransitive verbs will expect a dative (for the purposes of novice learning, we included the subject for all verbs, though this is not required). 
-> > > - Adjectives: Add to the Adjectives object. Include in it the adjective's inflection.
-> > > - Prepositions: Add to the Prepositions object. Include in it the case that it takes.
-> > > - Adverbs: Add to the Adverbs object.
+The public version enables you to add nouns, adjectives, verbs, prepositions, and adverbs. There are two places in the file [POSfactory.js](https://github.com/sharonzhou/ingenium/app/blocks/POSfactory.js) in which you should add your new words. 
+	1. Add the word into the ToolTips object, following its part of speech. This will show when hovering over the block as a dictionary gloss. 
+	2. Find the word's corresponding part of speech under the ToolTips. Add the word and, if applicable, its relevant inflections. 
+	- Nouns: Add to the NounInflections object. 
+	- Verbs: Add to the Verbs object. The Expectations object for verbs specify what this verb is "looking for" or "has a gap for", in the Michigan Latin approach, e.g. transitive verbs will expect an accusative direct object, while special intransitive verbs will expect a dative (for the purposes of novice learning, we included the subject for all verbs, though this is not required). 
+	- Adjectives: Add to the Adjectives object. Include in it the adjective's inflection.
+	- Prepositions: Add to the Prepositions object. Include in it the case that it takes.
+	- Adverbs: Add to the Adverbs object.
 
 ##### Change the Words in the Sentences
->Each page of sentences can be found in [/app/latin/sentences](https://github.com/sharonzhou/ingenium/app/latin/sentences). There are 3 pages that correspond to each rendered page of blocks on [TeachMeLatin](http://TeachMeLatin.com), separated by a Continue button. These 3 pages are in the folders 0, 1, and 2. In each of these folders, please find 5 html files that correspond to the 5 sentences on that page. Please modify these to include the blocks you wish.
+Each page of sentences can be found in [/app/latin/sentences](https://github.com/sharonzhou/ingenium/app/latin/sentences). There are 3 pages that correspond to each rendered page of blocks on [TeachMeLatin](http://TeachMeLatin.com), separated by a Continue button. These 3 pages are in the folders 0, 1, and 2. In each of these folders, please find 5 html files that correspond to the 5 sentences on that page. Please modify these to include the blocks you wish.
 
 ##### Specifying Different Parts of Speech
-> Nouns are specified using a declined form first, followed by their lemma, and concluding with the word `noun`, e.g. `agricolae-agricola-noun`.
-> Verbs are specified with its inflected form, e.g. `fugiunt`. Optionally, you may include the word `clampless`, e.g. `fugiunt-clampless`. This is to specify the shape of the verb. In our research, we explored two designs: one with clamps and one without. We found the clampless form to be more effective and compelled students to think outside of the otherwise strict horizontal word order, though the difference in their efficacy was not significant. Use either as you please :)
-> The remaining words take on their inflected form without further specification.
+- Nouns are specified using a declined form first, followed by their lemma, and concluding with the word `noun`, e.g. `agricolae-agricola-noun`.
+- Verbs are specified with its inflected form, e.g. `fugiunt`. Optionally, you may include the word `clampless`, e.g. `fugiunt-clampless`. This is to specify the shape of the verb. In our research, we explored two designs: one with clamps and one without. We found the clampless form to be more effective and compelled students to think outside of the otherwise strict horizontal word order, though the difference in their efficacy was not significant. Use either as you please :)
+- The remaining words take on their inflected form without further specification.
 
 
-Please contact me if you find it difficult to navigate.
+_Please contact me if you find it difficult to navigate._
 
 ## License
 Apache 2.0 License
