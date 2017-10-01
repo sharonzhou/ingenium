@@ -1,5 +1,4 @@
-# Ingenium: Latin Grammar Puzzle Blocks
-## Engaging Novice Students with Puzzles Representing Grammatical Concepts
+# Ingenium: Latin Grammar Puzzle Blocks for Novice Students
 
 ### Live at [TeachMeLatin.com](http://TeachMeLatin.com)
 
