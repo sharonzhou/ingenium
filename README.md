@@ -4,9 +4,9 @@
 ### Live at [TeachMeLatin.com](http://TeachMeLatin.com)
 
 _Inspired by Scratch. Built on Blockly._
-![](http://sharonzhou.me/jigsaw/app/latin/video/instructions.mp4)
+[![](https://github.com/sharonzhou/ingenium/demo.gif)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+
 ## Publications
-![](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0)
 ### ACM CHI
 Sharon Zhou, Ivy Livingston, Mark Schiefsky, Stuart Shieber, and Krzysztof Z. Gajos. [Ingenium: Engaging Novice Students with Latin Grammar](https://dash.harvard.edu/handle/1/24833590). _CHI 2016: SIGCHI Conference on Human Factors in Computing Systems._
 
