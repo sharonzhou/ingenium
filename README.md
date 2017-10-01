@@ -59,7 +59,7 @@ Please modify these to include your desired word blocks.
 - Verbs are specified with its inflected form, e.g. `fugiunt`. Optionally, you may include the word `clampless`, e.g. `fugiunt-clampless`. This is to specify the shape of the verb. In our research, we explored two designs: one with clamps and one without. We found the clampless form to be more effective and compelled students to think outside of the otherwise strict horizontal word order, though the difference in their efficacy was not significant. Use either that suits your needs.
 - The remaining words take on their inflected form without further specification.
 
-### 2. Changing English -> Another Language
+### 2. Changing from English to Another Language
 To modify the base language, please follow the steps below. 
 #### a. Declensions, plurality, gender
 - Modify the ENUMs for POS at the top of the file [POSfactory.js](https://github.com/sharonzhou/ingenium/app/blocks/POSfactory.js), e.g. NOMINATIVE: `string_for_nominative_in_target_language`.
