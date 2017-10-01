@@ -4,7 +4,7 @@
 ### Live at [TeachMeLatin.com](http://TeachMeLatin.com)
 
 _Inspired by Scratch. Built on Blockly._
-[![](https://github.com/sharonzhou/ingenium/demo.gif)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+[![Demo](https://github.com/sharonzhou/ingenium/demo.gif)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
 
 ## Publications
 ### ACM CHI
