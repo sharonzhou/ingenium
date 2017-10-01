@@ -1,24 +1,28 @@
 # Ingenium: Latin Grammar Puzzle Blocks
 ## Engaging Novice Students with Puzzles Representing Grammatical Concepts
 
-Live at [TeachMeLatin](http://TeachMeLatin.com)
+### Live at [TeachMeLatin.com](http://TeachMeLatin.com)
 
 _Inspired by Scratch. Built on Blockly._
 
-![Demo at: http://sharonzhou.me/jigsaw/app/latin/video/instructions.mp4](http://sharonzhou.me/jigsaw/app/latin/video/instructions.mp4)
+![](http://sharonzhou.me/jigsaw/app/latin/video/instructions.mp4)
 
 ## Publications
 ### ACM CHI
-![Video at: https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0 "Watch the video on the research behind it!")
+![](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0)
 
 Sharon Zhou, Ivy Livingston, Mark Schiefsky, Stuart Shieber, and Krzysztof Z. Gajos. [Ingenium: Engaging Novice Students with Latin Grammar](https://dash.harvard.edu/handle/1/24833590). In _Proceedings of the 34th Annual ACM Conference on Human Factors in Computing Systems_ (_CHI_ '16), San Jose, CA, May 7-12, 2016.
 
-> This work was published in one of the top computer science venues in the world, the [ACM Conference on Human Factors in Computing Systems (CHI)](https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems "CHI Publication").
+- This work was published in one of the top computer science venues in the world, the [ACM Conference on Human Factors in Computing Systems (CHI)](https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems "CHI Publication").
+
+![Video: [https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0)](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0)
 
 ### Harvard Thesis
 [Engineering Ingenium: Improving Engagement and Accuracy With the Visualization of Latin for Language Learning](https://dash.harvard.edu/handle/1/14398527 "Thesis")
 
-> This work was also published as an undergraduate thesis, representing the first time in Harvard's history that computer science and Classics were combined in a degree as a joint concentration (double major). It was done in collaboration with four Harvard professors, two in computer science and two in Classics.
+- This work was also published as an undergraduate thesis, representing the first time in Harvard's history that computer science and Classics were combined in a degree as a joint concentration (double major). 
+
+- It was done in collaboration with four Harvard professors, two in computer science and two in Classics.
 
 ## Author
 [Sharon Zhou](http://sharonzhou.me) ([@sharonzhou](https://github.com/sharonzhou))
