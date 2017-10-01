@@ -26,22 +26,33 @@ Sharon Zhou, Ivy Livingston, Mark Schiefsky, Stuart Shieber, and Krzysztof Z. Ga
 Please fork! :) 
 
 For those making modifications, (1) I welcome it wholeheartedly and (2) I give a _caveat emptor_ in advance, and a couple nota bene:
+
 - The code is well-commented, but can be unwieldly as it had to modify the Blockly library source code directly to make the desirable changes.
+
 - Modified code is commented with `//***` in Blockly library files.
 
 #### Customizing Practice Sentences
 ##### Inspect the Dictionary, and Add Words to the Dictionary
 The public version enables you to add nouns, adjectives, verbs, prepositions, and adverbs. There are two places in the file [POSfactory.js](https://github.com/sharonzhou/ingenium/app/blocks/POSfactory.js) in which you should add your new words. 
+	
 	1. Add the word into the ToolTips object, following its part of speech. This will show when hovering over the block as a dictionary gloss. 
+	
 	2. Find the word's corresponding part of speech under the ToolTips. Add the word and, if applicable, its relevant inflections. 
+	
 	- Nouns: Add to the NounInflections object. 
+	
 	- Verbs: Add to the Verbs object. The Expectations object for verbs specify what this verb is "looking for" or "has a gap for", in the Michigan Latin approach, e.g. transitive verbs will expect an accusative direct object, while special intransitive verbs will expect a dative (for the purposes of novice learning, we included the subject for all verbs, though this is not required). 
+	
 	- Adjectives: Add to the Adjectives object. Include in it the adjective's inflection.
+	
 	- Prepositions: Add to the Prepositions object. Include in it the case that it takes.
+	
 	- Adverbs: Add to the Adverbs object.
 
 ##### Change the Words in the Sentences
-Each page of sentences can be found in [/app/latin/sentences](https://github.com/sharonzhou/ingenium/app/latin/sentences). There are 3 pages that correspond to each rendered page of blocks on [TeachMeLatin](http://TeachMeLatin.com), separated by a Continue button. These 3 pages are in the folders 0, 1, and 2. In each of these folders, please find 5 html files that correspond to the 5 sentences on that page. Please modify these to include the blocks you wish.
+Three pages of sentences can be found in [/app/latin/sentences](https://github.com/sharonzhou/ingenium/app/latin/sentences), which correspond to the three rendered pages of blocks at [TeachMeLatin](http://TeachMeLatin.com) (they are separated by a click of the Continue button at the bottom of each page). 
+
+These 3 pages are in the folders 0, 1, and 2. In each of these folders, please find 5 html files that correspond to the 5 sentences on that page. Please modify these to include the blocks you wish.
 
 ##### Specifying Different Parts of Speech
 - Nouns are specified using a declined form first, followed by their lemma, and concluding with the word `noun`, e.g. `agricolae-agricola-noun`.
