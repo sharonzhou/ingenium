@@ -20,7 +20,7 @@ Sharon Zhou, Ivy Livingston, Mark Schiefsky, Stuart Shieber, and Krzysztof Z. Ga
 > This work was also published as an undergraduate thesis, representing the first time in Harvard's history that computer science and Classics were combined in a degree as a joint concentration (double major). It was done in collaboration with four Harvard professors, two in computer science and two in Classics.
 
 ## Author
-[Sharon Zhou](http://sharonzhou.me)
+[Sharon Zhou](http://sharonzhou.me) ([@sharonzhou](https://github.com/sharonzhou))
 
 ### Forking & Modifications
 Please fork! :) 
