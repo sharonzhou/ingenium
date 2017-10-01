@@ -1,14 +1,15 @@
 # Ingenium: Latin Grammar Puzzle Blocks
 ## Engaging Novice Students with Puzzles Representing Grammatical Concepts
 
-Live at [TeachMeLatin](http://TeachMeLatin.com).
+Live at [TeachMeLatin](http://TeachMeLatin.com)
+
 _Inspired by Scratch. Built on Blockly._
 
-![Demo](http://sharonzhou.me/jigsaw/app/latin/video/instructions.mp4 "Demo")
+![Demo at: http://sharonzhou.me/jigsaw/app/latin/video/instructions.mp4](http://sharonzhou.me/jigsaw/app/latin/video/instructions.mp4)
 
 ## Publications
 ### ACM CHI
-![Video](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0 "Watch the video on the research behind it!")
+![Video at: https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0 "Watch the video on the research behind it!")
 
 Sharon Zhou, Ivy Livingston, Mark Schiefsky, Stuart Shieber, and Krzysztof Z. Gajos. [Ingenium: Engaging Novice Students with Latin Grammar](https://dash.harvard.edu/handle/1/24833590). In _Proceedings of the 34th Annual ACM Conference on Human Factors in Computing Systems_ (_CHI_ '16), San Jose, CA, May 7-12, 2016.
 
