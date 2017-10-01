@@ -6,8 +6,8 @@
 _Inspired by Scratch. Built on Blockly._
 ![](http://sharonzhou.me/jigsaw/app/latin/video/instructions.mp4)
 ## Publications
-### ACM CHI
 ![](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0)
+### ACM CHI
 Sharon Zhou, Ivy Livingston, Mark Schiefsky, Stuart Shieber, and Krzysztof Z. Gajos. [Ingenium: Engaging Novice Students with Latin Grammar](https://dash.harvard.edu/handle/1/24833590). _CHI 2016: SIGCHI Conference on Human Factors in Computing Systems._
 
 - This work was published in one of the top computer science venues in the world, the [ACM Conference on Human Factors in Computing Systems (CHI)](https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems).
