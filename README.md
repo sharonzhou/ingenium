@@ -28,8 +28,8 @@ For those making modifications, (1) I welcome it wholeheartedly and (2) I give a
 
 - Modified code is commented with `//***` in Blockly library files.
 
-### Customizing Practice Sentences
-#### Inspect the Dictionary, and Add Words to the Dictionary
+### 1. Customizing Practice Sentences
+#### a. Inspect the Dictionary, and Add Words to the Dictionary
 The public version enables you to add nouns, adjectives, verbs, prepositions, and adverbs. There are two places in the file [POSfactory.js](https://github.com/sharonzhou/ingenium/app/blocks/POSfactory.js) in which you should add your new words. 
 	
 1. Add the word into the ToolTips object, following its part of speech. This will show when hovering over the block as a dictionary gloss. 
@@ -46,7 +46,7 @@ The public version enables you to add nouns, adjectives, verbs, prepositions, an
 	
 	- Adverbs: Add to the Adverbs object.
 
-#### Change the Words in the Sentences
+#### b. Change the Words in the Sentences
 Three pages of sentences can be found in [/app/latin/sentences](https://github.com/sharonzhou/ingenium/app/latin/sentences), which correspond to the three rendered pages of blocks at [TeachMeLatin](http://TeachMeLatin.com) (they are separated by a click of the Continue button at the bottom of each page). 
 
 - These 3 pages are in the folders 0, 1, and 2. 
@@ -54,28 +54,28 @@ Three pages of sentences can be found in [/app/latin/sentences](https://github.c
 
 Please modify these to include your desired word blocks.
 
-#### Specifying Different Parts of Speech
+#### c. Specifying Different Parts of Speech
 - Nouns are specified using a declined form first, followed by their lemma, and concluding with the word `noun`, e.g. `agricolae-agricola-noun`.
 - Verbs are specified with its inflected form, e.g. `fugiunt`. Optionally, you may include the word `clampless`, e.g. `fugiunt-clampless`. This is to specify the shape of the verb. In our research, we explored two designs: one with clamps and one without. We found the clampless form to be more effective and compelled students to think outside of the otherwise strict horizontal word order, though the difference in their efficacy was not significant. Use either that suits your needs.
 - The remaining words take on their inflected form without further specification.
 
-### Changing English -> Another Language
+### 2. Changing English -> Another Language
 To modify the base language, please follow the steps below. 
-#### Declensions, plurality, gender
+#### a. Declensions, plurality, gender
 - Modify the ENUMs for POS at the top of the file [POSfactory.js](https://github.com/sharonzhou/ingenium/app/blocks/POSfactory.js), e.g. NOMINATIVE: `string_for_nominative_in_target_language`.
 - If the above modification is insufficient, please also find and replace all instances of `nominative`, etc. in the lowercase in the file [POSfactory.js](https://github.com/sharonzhou/ingenium/app/blocks/POSfactory.js).
 
-#### "Choose" for blocks
+#### b. "Choose" for blocks
 - Modify the string `choose` to the target language in `block.setFieldValue("choose", "dropdown");` in the file [Sentence.js](https://github.com/sharonzhou/ingenium/app/latin/js/Sentence.js).
 
-#### Translations Checker
+#### c. Translations Checker
 - Modify possible translations in the function `checkTranslation` in the file [Index.js](https://github.com/sharonzhou/ingenium/app/latin/js/Index.js).
 - Sample answers (which students can click to see) can be modified in the function `displayAnswer` in the file [Index.js](https://github.com/sharonzhou/ingenium/app/latin/js/Index.js). You may change these to the empty string, if you wish students are unable to see a sample answer, or you may change these to abbreviated hints that you wish for your students to see instead.
 
-#### Webpage Text Changes
+#### d. Webpage Text Changes
 - Modify text in the file [index.html](https://github.com/sharonzhou/ingenium/app/latin/index.html).
 
-#### Disable or Change the Initial Modal (Popup)
+#### e. Disable or Change the Initial Modal (Popup)
 - To disable the modal, comment out the block of text after the comment `Open Instructions on load of first lesson` in the file [Index.js](https://github.com/sharonzhou/ingenium/app/latin/js/Index.js).
 - To modify the modal, modify all html tags with an id prefixed by `modal-` in the file [index.html](https://github.com/sharonzhou/ingenium/app/latin/index.html).
 - Scroll down in both files to modify or remove the feedback modal.
