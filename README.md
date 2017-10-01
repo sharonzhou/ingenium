@@ -15,7 +15,7 @@ Sharon Zhou, Ivy Livingston, Mark Schiefsky, Stuart Shieber, and Krzysztof Z. Ga
 
 - This work was published in one of the top computer science venues in the world, the [ACM Conference on Human Factors in Computing Systems (CHI)](https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems "CHI Publication").
 
-![Video: [https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0)](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0)
+![![Video](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0)](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0)
 
 ### Harvard Thesis
 [Engineering Ingenium: Improving Engagement and Accuracy With the Visualization of Latin for Language Learning](https://dash.harvard.edu/handle/1/14398527 "Thesis")
