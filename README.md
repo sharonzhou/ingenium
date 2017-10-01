@@ -1,25 +1,27 @@
-# Ingenium: Latin Grammar Puzzle Blocks for Novice Students
+# Ingenium: Latin Grammar Puzzle Blocks 
 
 ### Live at [TeachMeLatin.com](http://TeachMeLatin.com)
+
+Engaging Novice Latin Students with Grammatical Logic and Structure
 
 _Inspired by Scratch. Built on Blockly._
 
 ![](https://github.com/sharonzhou/ingenium/blob/master/demo.gif)
 
 ## Publications
-### ACM CHI
 Sharon Zhou, Ivy Livingston, Mark Schiefsky, Stuart Shieber, and Krzysztof Z. Gajos. [Ingenium: Engaging Novice Students with Latin Grammar](https://dash.harvard.edu/handle/1/24833590). _CHI 2016: SIGCHI Conference on Human Factors in Computing Systems._
 
 - This work was published in one of the top computer science venues in the world, the [ACM Conference on Human Factors in Computing Systems (CHI)](https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems).
 
-Watch the ![video](http://www.youtube.com/watch?v=T-D1KVIuvjA) on the research.
+- Nearly 50 universities in the U.S. participated in the study, which found that students were much significantly more accurate in their translations and more engaged with the grammar after using Ingenium.
 
-### Harvard Thesis
+- Watch the ![video](http://www.youtube.com/watch?v=T-D1KVIuvjA) on the research.
+
 Sharon Zhou. [Engineering Ingenium: Improving Engagement and Accuracy With the Visualization of Latin for Language Learning](https://dash.harvard.edu/handle/1/14398527). Undergraduate Thesis, 2015.
 
 - This work was also published as an undergraduate thesis, representing the first time in Harvard's history that computer science and Classics were combined in a degree as a joint concentration (double major). 
 
-- It was done in collaboration with four Harvard professors, two in computer science and two in Classics.
+- This was done in collaboration with four Harvard professors, two in computer science and two in Classics.
 
 ## Forking & Modifications
 Please fork! :) 
