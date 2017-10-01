@@ -4,13 +4,15 @@
 ### Live at [TeachMeLatin.com](http://TeachMeLatin.com)
 
 _Inspired by Scratch. Built on Blockly._
-[!(https://github.com/sharonzhou/ingenium/blob/master/demo.gif)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+![](https://github.com/sharonzhou/ingenium/blob/master/demo.gif)
 
 ## Publications
 ### ACM CHI
 Sharon Zhou, Ivy Livingston, Mark Schiefsky, Stuart Shieber, and Krzysztof Z. Gajos. [Ingenium: Engaging Novice Students with Latin Grammar](https://dash.harvard.edu/handle/1/24833590). _CHI 2016: SIGCHI Conference on Human Factors in Computing Systems._
 
 - This work was published in one of the top computer science venues in the world, the [ACM Conference on Human Factors in Computing Systems (CHI)](https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems).
+
+Watch the ![video](http://www.youtube.com/watch?v=T-D1KVIuvjA) on the research.
 
 ### Harvard Thesis
 Sharon Zhou. [Engineering Ingenium: Improving Engagement and Accuracy With the Visualization of Latin for Language Learning](https://dash.harvard.edu/handle/1/14398527). Undergraduate Thesis, 2015.
