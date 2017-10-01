@@ -10,6 +10,7 @@ _Inspired by Scratch. Built on Blockly._
 ## Publications
 ### ACM CHI
 ![](https://www.youtube.com/watch?time_continue=1&v=XZsQH5kVLB0)
+
 Sharon Zhou, Ivy Livingston, Mark Schiefsky, Stuart Shieber, and Krzysztof Z. Gajos. [Ingenium: Engaging Novice Students with Latin Grammar](https://dash.harvard.edu/handle/1/24833590). In _Proceedings of the 34th Annual ACM Conference on Human Factors in Computing Systems_ (_CHI_ '16), San Jose, CA, May 7-12, 2016.
 
 - This work was published in one of the top computer science venues in the world, the [ACM Conference on Human Factors in Computing Systems (CHI)](https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems "CHI Publication").
@@ -21,10 +22,7 @@ Sharon Zhou, Ivy Livingston, Mark Schiefsky, Stuart Shieber, and Krzysztof Z. Ga
 
 - It was done in collaboration with four Harvard professors, two in computer science and two in Classics.
 
-## Author
-[Sharon Zhou](http://sharonzhou.me) ([@sharonzhou](https://github.com/sharonzhou))
-
-### Forking & Modifications
+## Forking & Modifications
 Please fork! :) 
 
 For those making modifications, (1) I welcome it wholeheartedly and (2) I give a _caveat emptor_ in advance, and a couple nota bene:
@@ -61,11 +59,11 @@ Please modify these to include your desired word blocks.
 
 ##### Specifying Different Parts of Speech
 - Nouns are specified using a declined form first, followed by their lemma, and concluding with the word `noun`, e.g. `agricolae-agricola-noun`.
-- Verbs are specified with its inflected form, e.g. `fugiunt`. Optionally, you may include the word `clampless`, e.g. `fugiunt-clampless`. This is to specify the shape of the verb. In our research, we explored two designs: one with clamps and one without. We found the clampless form to be more effective and compelled students to think outside of the otherwise strict horizontal word order, though the difference in their efficacy was not significant. Use either as you please :)
+- Verbs are specified with its inflected form, e.g. `fugiunt`. Optionally, you may include the word `clampless`, e.g. `fugiunt-clampless`. This is to specify the shape of the verb. In our research, we explored two designs: one with clamps and one without. We found the clampless form to be more effective and compelled students to think outside of the otherwise strict horizontal word order, though the difference in their efficacy was not significant. Use either that suits your needs.
 - The remaining words take on their inflected form without further specification.
 
-
-_Please contact me if you find it difficult to navigate._
+## Author
+[Sharon Zhou](http://sharonzhou.me) ([@sharonzhou](https://github.com/sharonzhou))
 
 ## License
 Apache 2.0 License
