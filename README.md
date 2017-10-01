@@ -39,15 +39,15 @@ The public version enables you to add nouns, adjectives, verbs, prepositions, an
 	
 2. Find the word's corresponding part of speech under the ToolTips. Add the word and, if applicable, its relevant inflections. 
 	
-- Nouns: Add to the NounInflections object. 
+	- Nouns: Add to the NounInflections object. 
 	
-- Verbs: Add to the Verbs object. The Expectations object for verbs specify what this verb is "looking for" or "has a gap for", in the Michigan Latin approach, e.g. transitive verbs will expect an accusative direct object, while special intransitive verbs will expect a dative (for the purposes of novice learning, we included the subject for all verbs, though this is not required). 
+	- Verbs: Add to the Verbs object. The Expectations object for verbs specify what this verb is "looking for" or "has a gap for", in the Michigan Latin approach, e.g. transitive verbs will expect an accusative direct object, while special intransitive verbs will expect a dative (for the purposes of novice learning, we included the subject for all verbs, though this is not required). 
 	
-- Adjectives: Add to the Adjectives object. Include in it the adjective's inflection.
+	- Adjectives: Add to the Adjectives object. Include in it the adjective's inflection.
 	
-- Prepositions: Add to the Prepositions object. Include in it the case that it takes.
+	- Prepositions: Add to the Prepositions object. Include in it the case that it takes.
 	
-- Adverbs: Add to the Adverbs object.
+	- Adverbs: Add to the Adverbs object.
 
 ##### Change the Words in the Sentences
 Three pages of sentences can be found in [/app/latin/sentences](https://github.com/sharonzhou/ingenium/app/latin/sentences), which correspond to the three rendered pages of blocks at [TeachMeLatin](http://TeachMeLatin.com) (they are separated by a click of the Continue button at the bottom of each page). 
