@@ -1,0 +1,81 @@
+.carousel-caption {
+	color: #000;
+	font-family: Lato;
+	text-shadow: none;
+	font-size: 17px;
+	background-color: #ccc;
+}
+
+.translation, .fill, .control-translation, .control-fill {
+	font-size: 15px;
+	height: 20px;
+	background-color: #E8E8E8;
+	line-height: .8;
+}
+
+.fill {
+	bottom: -30px;
+	margin-left: 150px;
+}
+
+.control-translation {
+	bottom: -60px;
+}
+
+.carousel-indicators {
+	bottom: 5px;
+}
+
+.carousel-indicators li {
+	border: 1px solid #000;
+}
+
+.carousel-control {
+	text-shadow: none;
+	color: #000;
+	opacity: 1;
+}
+
+.carousel-control:hover {
+	color: #ccc;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+}
+
+.carousel-control.right {
+	margin-right: 40px;
+}
+
+.carousel {
+	width: 900px;
+	margin-top: 50px;
+	margin-left: 142px;
+  	border: 5px solid white; 
+  	-webkit-box-shadow: 
+    	inset 0 0 8px  rgba(0,0,0,0.1),
+         	 0 0 16px rgba(0,0,0,0.1); 
+  	-moz-box-shadow: 
+    	inset 0 0 8px  rgba(0,0,0,0.1),
+          	0 0 16px rgba(0,0,0,0.1); 
+  	box-shadow: 
+    	inset 0 0 8px  rgba(0,0,0,0.1),
+          	0 0 16px rgba(0,0,0,0.1); 
+  	padding: 15px;
+  	background: rgba(255,255,255,0.5);
+}
+
+.fill-inner {
+	margin-left: -100px;
+	padding-bottom: 70px;
+}
+
+.control-translation-inner {
+	padding-bottom: 100px;
+}
+
+.control-fill-inner {
+	padding-bottom: 30px;
+}
+

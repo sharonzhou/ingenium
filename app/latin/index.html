@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/animatedModal.min.js"></script>
+    <script src="js/Index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/sentence-styles.css">
+    <link href='css/lato.css' rel='stylesheet' type='text/css'>
+    <link href='css/reaction.css' rel='stylesheet' type='text/css'>
+    <link href='css/animate.min.css' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+  <div id="landing-page">
+    <div class="title-container">
+      <div class="title"><span class="ingenium-title">Ingenium</span> Latin Grammar with Puzzle Blocks</div>
+    </div>
+      <a id="modal-feedback-link" href="#modal-feedback" class="btn">Send us feedback<img src="img/send-plane.png"></a>
+      <a id="modal-instructions-link" href="#modal-instructions" class="btn">How do I play with these?</a>
+  <div id="practice-page">
+
+    <hr>
+    <div class="iframe-wrapper">
+      <iframe id="frame-0" scrolling="no" frameBorder="0" src="sentences/0/0.html"></iframe>
+    </div>
+      <a id="modal-translation-link-0" href="#modal-translation" class="btn">Check Translation</a><br>
+
+    <hr>
+    <div class="iframe-wrapper">
+      <iframe id="frame-1" scrolling="no" frameBorder="0" src="sentences/0/1.html"></iframe>
+    </div>
+      <a id="modal-translation-link-1" href="#modal-translation" class="btn">Check Translation</a><br>
+
+    <hr>
+    <div class="iframe-wrapper">
+      <iframe id="frame-2" scrolling="no" frameBorder="0" src="sentences/0/2.html"></iframe>
+    </div>
+      <a id="modal-translation-link-2" href="#modal-translation" class="btn">Check Translation</a><br>
+
+    <hr>
+    <div class="iframe-wrapper">
+      <iframe id="frame-3" scrolling="no" frameBorder="0" src="sentences/0/3.html"></iframe>
+    </div>
+      <a id="modal-translation-link-3" href="#modal-translation" class="btn">Check Translation</a><br>
+
+    <hr>
+    <div class="iframe-wrapper">
+      <iframe id="frame-4" scrolling="no" frameBorder="0" src="sentences/0/4.html"></iframe>
+    </div>
+      <a id="modal-translation-link-4" href="#modal-translation" class="btn">Check Translation</a><br>
+
+    <hr>
+    <button id="continue-btn" class="btn">Continue</button>
+    <!-- <a id="modal-feedback-link" href="#modal-feedback"></a> -->
+  </div>
+  </div>
+  <!-- Instructions Modal -->
+  <div class="modal" id="modal-instructions">
+    <div class="close-modal-instructions">
+    <img class="close-btn" src="img/close_modal.svg">
+    <svg id="instructions-close-text">
+        <defs>
+            <path id="textPath" d="M0 10 q 20 100 170 0"/>
+        </defs>
+        <text fill="white">
+            <textPath xlink:href="#textPath">Close &amp; Play!</textPath>
+        </text>
+    </svg>
+    </div>
+        
+    <div class="modal-content">
+      <div id="instructions-title-header"><span class="ingenium-title">Ingenium</span> Latin Grammar with Puzzle Blocks</div>
+      <div id="instructions-title">§ Instructions</div>
+      <div>Take a Latin sentence:<i> milites ad magna animalia celeriter currunt</i>.</div>
+      <video id="instructions-animation" autobuffer autoplay autoloop loop poster="data:image/gif,AAAA">
+        <source src="video/instructions.mp4">
+      </video>
+      <br>
+      <span class="instructions-left">
+      <strong>Choose</strong> correct <strong>forms</strong> so that each word<br> plays a role in the sentence.<br>
+        <img src="img/instructions-choose-form.png" width="300px">
+      </span>
+      <span class="instructions-center">
+      <strong>Drag</strong> and <strong>drop</strong> puzzle blocks together!<br>
+        <img src="img/instructions-completed-puzzle.png" width="280px">
+      </span>
+      <span class="instructions-right">
+        Tip: <strong>Right click</strong> for a <strong>definition</strong>.<br>
+        <img src="img/instructions-gloss.png" width="220px">
+      </span>
+    </div>
+  </div>
+
+  <!-- Modal Translation -->
+  <div class="modal" id="modal-translation">
+    <div class="close-modal-translation"> 
+        <img class="close-btn" src="img/close_modal.svg">
+    </div>
+        
+    <div class="modal-content modal-translation">
+    <label>Enter your translation <div class="translation-feedback">Checking...</div></label>
+    <br>
+    <input type="text" name="translation"/>
+    <br>
+    </div>
+  </div>
+
+  <!-- Modal Done -->
+  <div class="modal" id="modal-feedback">
+    <div class="close-modal-feedback"> 
+        <img class="close-btn" src="img/close_modal.svg">
+    </div>
+        
+    <div class="modal-content modal-feedback">
+    <form id="feedback-form" action="//formspree.io/sharonzhou12+formspree@gmail.com" method="POST">
+      <div class="modal-feedback-text">
+        <div class="modal-feedback-main-text">Thanks for trying our exercises in <i>beta!</i></div>
+        <div>How was the experience?</div>
+        <div class="modal-feedback-subtext">Select all that apply.</div>
+      </div>
+      <br>
+
+      <div class="icon-line">
+        <div class="icon-group icon-line-left">
+              <i class="icon-emo-thumbsup"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="likeworthy" value="likeworthy"/> <label>Like-worthy</label></div>
+        </div>
+        <div class="icon-group icon-line-right">
+              <i class="icon-emo-coffee"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="mycupoftea" value="mycupoftea"/> <label>My cup of tea</label></div>
+        </div>
+        <div class="icon-group">
+              <i class="icon-emo-laugh"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="enjoyable" value="enjoyable"/> <label>Enjoyable</label></div>
+        </div>
+      </div>
+      <br>
+      <div class="icon-line">
+        <div class="icon-group icon-line-left">
+              <i class="icon-emo-surprised"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="novel" value="novel"/> <label>Novel</label></div>
+        </div>
+        <div class="icon-group icon-line-right">
+              <i class="icon-emo-tongue"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="playful" value="playful"/> <label>Playful</label></div>
+        </div>
+        <div class="icon-group">
+              <i class="icon-emo-wink2"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="fun" value="fun"/> <label>Fun</label></div>
+        </div>
+      </div>
+
+      <hr>
+      <div class="modal-feedback-text">
+        <div>How did you feel throughout?</div>
+        <div class="modal-feedback-subtext">Select all that apply.</div>
+      </div>
+      <br>
+
+      <div class="icon-line">
+        <div class="icon-group icon-line-left">
+              <i class="icon-emo-happy"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="engaged" value="engaged"/> <label>Engaged</label></div>
+        </div>
+        <div class="icon-group icon-line-right">
+              <i class="icon-emo-sleep"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="pensive" value="pensive"/> <label>Pensive</label></div>
+        </div>
+        <div class="icon-group">
+              <i class="icon-emo-sunglasses"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="smart" value="smart"/> <label>Smart</label></div>
+        </div>
+      </div>
+      <br>
+      <div class="icon-line">
+        <div class="icon-group icon-line-left">
+              <i class="icon-emo-grin"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="studious" value="studious"/> <label>Studious</label></div>
+        </div>
+        <div class="icon-group icon-line-right">
+              <i class="icon-emo-unhappy"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="stressed" value="stressed"/> <label>Stressed</label></div>
+        </div>
+        <div class="icon-group">
+              <i class="icon-emo-squint"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="reflective" value="reflective"/> <label>Reflective</label></div>
+        </div>
+      </div>
+      <br>
+      <div class="icon-line">
+        <div class="icon-group icon-line-left">
+              <i class="icon-emo-displeased"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="bored" value="bored"/> <label>Bored</label></div>
+        </div>
+        <div class="icon-group icon-line-right">
+              <i class="icon-emo-cry"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="stupid" value="stupid"/> <label>Stupid</label></div>
+        </div>
+        <div class="icon-group">
+              <i class="icon-emo-angry"></i> 
+              <div class="icon-group-text"><input type="checkbox" name="frustrated" value="frustrated"/> <label>Frustrated</label></div>
+        </div>
+      </div>
+
+      <hr>
+      <div class="modal-feedback-text">
+        <div>In your words?</div>
+        <div class="modal-feedback-subtext">Write us a sentence.</div>
+        <br>
+        <input type="text" name="freetext"/>
+      </div>
+      <br>
+
+      <!-- <input type="hidden" name="_subject" value="Ingenium Beta Feedback"/> -->
+      <input type="hidden" name="_next" value="//sharonzhou.me"/>
+      <a id="submit-btn" class="btn">Send<img src="img/send-plane.png"></a>
+    </form>
+      <br>
+
+    </div>
+
+  </div>  
+
+  </body>
+</html>

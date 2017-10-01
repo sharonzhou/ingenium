@@ -1,0 +1,386 @@
+html, body {
+  height: 100%;
+  width: 100%;
+	font-family: Lato;
+  background-color: #FCFCFA;
+  text-align: center;
+  margin: none;
+  padding: none;
+}
+
+.blocklySvg {
+  height: 100%;
+  width: 100%;
+  margin-top: -13px;
+  padding: none;
+}
+
+iframe {
+  height: 500px;
+  width: 100%;
+}
+
+.iframe-wrapper {
+  background: url(../img/loading_icon.gif) center center no-repeat;
+  background-size: 200px 200px;
+}
+
+.title-container {
+  background-color: #00CCCC;
+  margin: 10px;
+  color: white;
+  height: 80px;
+  z-index: 3;
+
+  -webkit-box-shadow: 3px 10px 0px #069D9D;
+        -moz-box-shadow: 3px 3px 0px #069D9D;
+        box-shadow: 3px 3px 0px #069D9D;
+}
+
+.title {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.ingenium-title {
+  font-weight: bolder;
+  padding: 30px;
+  font-size: inherit;
+}
+
+#landing-page {
+  height: 100%;
+}
+
+.modal {
+  color: '#00CCCC';
+  text-align: center;
+  top: 50%;
+  left: 50%;
+}
+
+hr {
+    margin-bottom: 14px;
+    margin-top: 30px;
+    padding: 0;
+    border: none;
+    border-top: 5px double #333;
+    color: #333;
+    text-align: center;
+}
+
+.btn {
+  font-family: Lato;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  color: #ffffff;
+  font-size: 20pt;
+  background: #00CCCC;
+  text-decoration: none;
+  border-radius: 2px;
+  margin-left: 10px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+
+  position: relative;
+  text-decoration:none;
+  border: none;
+  text-align:center;
+  
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  
+  -webkit-box-shadow: 3px 3px 0px #069D9D;
+        -moz-box-shadow: 3px 3px 0px #069D9D;
+        box-shadow: 3px 3px 0px #069D9D;
+}
+
+.btn:active{
+    -webkit-box-shadow: 0px 0px 0px #007171;
+    -moz-box-shadow: 0px 0px 0px #007171;
+    box-shadow: 0px 0px 0px #007171;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.btn:hover {
+  background: #08C3C3;
+  -webkit-box-shadow: 3px 3px 0px #057E7E;
+      -moz-box-shadow: 3px 3px 0px #057E7E;
+      box-shadow: 3px 3px 0px #057E7E;
+  text-decoration: none;
+}
+
+.modal-content {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.instructions-left {
+  float: left;
+  margin-left: 70px;
+  display: inline-block;
+}
+
+.instructions-right {
+  float: right;
+  margin-right: 130px;
+  display: inline-block;
+}
+
+.modal-content span {
+  display: inline-block;
+}
+
+.modal-content img {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+#modal-instructions-link {
+  font-weight: normal;
+  font-size: 15pt;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#instructions-title {
+  font-size: 20pt;
+  margin-bottom: 10px;
+}
+
+#instructions-title-header {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+#instructions-animation {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  background: url(../img/loading_icon.gif) center center no-repeat;
+  background-size: 200px 200px;
+}
+
+#instructions-close-text {
+  position: absolute;
+  float: right;
+  margin-top: 55px;
+  right: -185px;
+  cursor: pointer;
+}
+
+textpath {
+  letter-spacing: 1.1px;
+}
+
+.modal-translation {
+  font-size: 15pt;
+  top: 40px;
+}
+
+#modal-translation {
+  position: fixed;
+  bottom: 0;
+}
+
+a[href="#modal-translation"] {
+  font-weight: normal;
+  font-size: 15pt;
+  float: right;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.translation-feedback {
+  font-size: 11pt;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: transparent;
+}
+
+#modal-feedback > .modal-content {
+  margin-top: 50px;
+  font-size: 15pt;
+  text-align: center;
+}
+
+.icon-line {
+  display: inline;
+}
+
+.icon-line-left {
+  float: left;
+  margin-left: 200px;
+  display: inline-block;
+}
+
+.icon-line-right {
+  float: right;
+  margin-right: 200px;
+  display: inline-block;
+}
+
+.icon-group-text {
+  margin-top: 10px;
+}
+
+.modal-feedback-text {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.modal-feedback-main-text {
+  font-weight: bold;
+  font-size: 17pt;
+  margin: 5px;
+}
+
+.modal-feedback-subtext {
+  font-size: 12pt;
+  color: #ECECEC;
+  text-align: center;
+}
+
+.modal-feedback {
+  margin-bottom: 60px;
+}
+
+.modal-feedback hr {
+  border-top: 2px solid rgba(227, 234, 234, .2);
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.modal-feedback input[type="text"] {
+  animation: blink-empty 1s infinite;
+  border-left: transparent solid 1px;
+  margin: 5px;
+}
+
+@keyframes blink-empty {
+  50% {
+    border-left: 1px solid #ffffff;
+    padding-left: 5px;
+  }
+}
+
+i[class^="icon-"] {
+  font-size: 25pt;
+  padding: 10px;
+}
+
+.modal-feedback img {
+  margin: 0;
+  margin-left: 10px;
+  width: 30px;
+}
+
+.modal-feedback > a {
+  padding-left: 20px;
+  background-color: #08C3C3;
+}
+
+#modal-feedback-link {
+  font-weight: normal;
+  font-size: 15pt;
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#modal-feedback-link img {
+  margin: 0;
+  margin-left: 2px;
+  height: 18px;
+}
+
+/************************************
+ * Input tag
+************************************/
+
+input[type="text"] {
+  font-size: 14pt;
+  font-family: Lato;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  width: 80%;
+  padding-left: 5px;
+  margin-top: 2px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.modal-translation label::before {
+  top: 0;
+  font-weight: bold;
+}
+
+.modal-translation label::after {
+  top: 30px;
+}
+
+.modal-translation label > div {
+  font-size: 10pt;
+  color: #ECECEC;
+}
+
+
+/************************************
+ * Animated Modal's Close Button
+************************************/
+
+.close-btn {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+  float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.close-btn:hover {
+  transform: rotate(90deg);
+}
+
+/************************************
+ * Fontelico's emoticons
+************************************/
+
+i[class^="icon-"] {
+  border-radius: 120px;
+  padding: 12px;
+}
+
+.icon-emo-happy:hover, .icon-emo-happy:active {
+  background-color: #F3CB32;
+}
+
+
+

@@ -1,0 +1,90 @@
+html, body {
+	height: 340px;
+	font-family: Lato;
+  margin-left: 0px;
+}
+
+h1 {
+  margin-left: 35px;
+  margin-top: 60px;
+}
+
+.blocklySvg {
+	height: 100%;
+	width: 100%;
+}
+
+iframe {
+	width: 700px;
+	height: 360px;
+  margin-left: 10px;
+}
+
+span {
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+#nota-bene {
+  font-size: 10px;
+  padding-left: 142px;
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 13pt;
+  background: #00CCCC;
+  text-decoration: none;
+  border-radius: 2px;
+  margin-left: 10px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+
+  position: relative;
+  text-decoration:none;
+  border: none;
+  text-align:center;
+  
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  
+  -webkit-box-shadow: 3px 3px 0px #069D9D;
+        -moz-box-shadow: 3px 3px 0px #069D9D;
+        box-shadow: 3px 3px 0px #069D9D;
+}
+
+.btn:active{
+    -webkit-box-shadow: 0px 0px 0px #007171;
+    -moz-box-shadow: 0px 0px 0px #007171;
+    box-shadow: 0px 0px 0px #007171;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.btn:hover {
+  background: #08C3C3;
+  -webkit-box-shadow: 3px 3px 0px #057E7E;
+      -moz-box-shadow: 3px 3px 0px #057E7E;
+      box-shadow: 3px 3px 0px #057E7E;
+  text-decoration: none;
+}
+
+/*.btn {
+  color: #ffffff;
+  font-size: 13pt;
+  background: rgb(72, 215, 72);
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background: #D5D5D5;
+  text-decoration: none;
+}*/

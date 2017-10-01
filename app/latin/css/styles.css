@@ -1,0 +1,268 @@
+html, body {
+	background-color: transparent;
+	margin-left: 20px;
+	height: 100%;
+  width: 80%;
+	font-family: Lato;
+}
+
+#skip-btn {
+  float: right;
+  border: none;
+  background-color: #ccc;
+  color: sienna;
+  top: 10px;
+  right: 10px;
+  position: fixed;
+}
+
+h1 {
+	margin-left: 135px;
+	margin-top: 60px;
+}
+
+.blocklySvg {
+	height: 100%;
+	width: 50%;
+}
+
+iframe {
+	margin-left: 100px;
+  height: 70%;
+  width: 100%;
+  border: 2px solid black;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+span {
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.highlight {
+  color: #00CCCC;
+  display: inline;
+  padding: 0px;
+}
+
+img {
+	vertical-align: middle;
+	margin-left: 135px;
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 13pt;
+  background: #00CCCC;
+  text-decoration: none;
+  border-radius: 2px;
+  margin-left: 10px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+
+  position: relative;
+  text-decoration:none;
+  border: none;
+  text-align:center;
+  
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  
+  -webkit-box-shadow: 3px 3px 0px #069D9D;
+        -moz-box-shadow: 3px 3px 0px #069D9D;
+        box-shadow: 3px 3px 0px #069D9D;
+}
+
+.btn:active{
+    -webkit-box-shadow: 0px 0px 0px #007171;
+    -moz-box-shadow: 0px 0px 0px #007171;
+    box-shadow: 0px 0px 0px #007171;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.btn:hover {
+  background: #08C3C3;
+  -webkit-box-shadow: 3px 3px 0px #057E7E;
+      -moz-box-shadow: 3px 3px 0px #057E7E;
+      box-shadow: 3px 3px 0px #057E7E;
+  text-decoration: none;
+}
+
+#instructions-main-balloons-text {
+  margin-top: 300px;
+  margin-left: 150px;
+  padding: 10px;
+  background-color: rgba(255,255,255,.45);
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#img-main-balloon {
+  height: 1200px;
+  width: 900px;
+  float: right;
+  opacity: .4;
+  position: absolute;
+  top: -100px;
+  left: -30px;
+  z-index: -100;
+  overflow: none;
+}
+
+.instructions-main-container {
+  background-color: rgba(255,255,255,0.7);
+  width: 850px;
+  padding-right: 700px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+.instructions-main {
+  margin-left: 140px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.instructions-main-sub {
+  margin-left: 140px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+  padding: 0px;
+  font-weight: bold;
+}
+
+#main-btn {
+  margin-left: 140px;
+}
+
+#nota-bene {
+  font-size: 10px;
+  padding-left: 142px;
+}
+
+#footer {
+  font-size: 14px;
+  margin-left: 350px;
+  margin-top: 40px;
+  color: #00CCCC;
+}
+
+a {
+	color: rgb(0, 204, 204);
+	text-decoration: none;
+  float: right;
+}
+
+a:hover, a:active {
+	color: #D5D5D5;
+}
+
+label {
+  display: inline;
+  margin-left: 135px;
+}
+
+.regular-checkbox {
+  display: none;
+}
+
+.regular-checkbox + label {
+  background-color: #D5D5D5;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+  padding: 7px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked + label {
+  background-color: #fff;
+  border: 1px solid #adb8c0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+  color: #99a1a7;
+}
+
+.regular-checkbox:checked + label:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: #99a1a7;
+}
+
+#consent-text {
+  margin-left: 5px;
+  padding: 0px;
+  font-size: 18px;
+}
+
+#instructions > li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#instructions > li > span {
+  color: #00CCCC;
+  display: inline;
+  padding: 0px;
+}
+
+.form-body > form {
+  background-color: white;
+}
+
+.ss-q-title {
+  font-size: 18px;
+  margin-left: 140px;
+}
+
+.ss-required-asterisk {
+  visibility: hidden;
+}
+
+.ss-secondary-text {
+  margin-left: 140px;
+}
+
+#ss-submit {
+  margin-left: 140px;
+  border: 1px solid #57B6D5;
+  background-color: #0096A7;
+  background-image: -webkit-linear-gradient(top,#0096A7,#0099BA);
+}
+
+.ss-q-short {
+  margin-left: 140px !important;
+}
+
+.ss-choice-label {
+  font-size: 1.200rem;
+}
+
+.ss-choice-item-control {
+  font-size: inherit;
+}
+
+div[role="listitem"] {
+  display: list-item;
+}

@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'reaction';
+  src: url('../font/reaction.eot?11744283');
+  src: url('../font/reaction.eot?11744283#iefix') format('embedded-opentype'),
+       url('../font/reaction.woff?11744283') format('woff'),
+       url('../font/reaction.ttf?11744283') format('truetype'),
+       url('../font/reaction.svg?11744283#reaction') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'reaction';
+    src: url('../font/reaction.svg?11744283#reaction') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "reaction";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-emo-happy:before { content: '\e800'; } /* '' */
+.icon-emo-beer:before { content: '\e801'; } /* '' */
+.icon-emo-wink:before { content: '\e802'; } /* '' */
+.icon-emo-wink2:before { content: '\e803'; } /* '' */
+.icon-emo-unhappy:before { content: '\e804'; } /* '' */
+.icon-emo-sleep:before { content: '\e805'; } /* '' */
+.icon-emo-thumbsup:before { content: '\e806'; } /* '' */
+.icon-emo-devil:before { content: '\e807'; } /* '' */
+.icon-emo-surprised:before { content: '\e808'; } /* '' */
+.icon-emo-tongue:before { content: '\e809'; } /* '' */
+.icon-emo-coffee:before { content: '\e80a'; } /* '' */
+.icon-emo-sunglasses:before { content: '\e80b'; } /* '' */
+.icon-emo-displeased:before { content: '\e80c'; } /* '' */
+.icon-emo-grin:before { content: '\e80d'; } /* '' */
+.icon-emo-angry:before { content: '\e80e'; } /* '' */
+.icon-emo-saint:before { content: '\e80f'; } /* '' */
+.icon-emo-cry:before { content: '\e810'; } /* '' */
+.icon-emo-shoot:before { content: '\e811'; } /* '' */
+.icon-emo-squint:before { content: '\e812'; } /* '' */
+.icon-emo-laugh:before { content: '\e813'; } /* '' */
