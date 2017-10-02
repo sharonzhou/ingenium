@@ -28,7 +28,7 @@ Please fork! :)
 
 For those making modifications, (1) I welcome it wholeheartedly and (2) I give a _caveat emptor_ in advance, and a couple nota bene:
 
-- The code is well-commented, but can be unwieldly as it had to modify the Blockly library source code directly to make the desirable changes.
+- The code is well-commented in modified areas, but can be unwieldly as I modified the Blockly library source code directly in order to make all the desirable changes.
 
 - Modified code is commented with `//***` in Blockly library files.
 
